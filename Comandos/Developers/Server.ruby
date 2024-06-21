@@ -8,7 +8,7 @@ $splitText[4]
 $splitText[5];1]
 $color[#7d0001;1] $thumbnail[$serverIcon[$guildID[$splitText[1]]];1]
 
-$author[$splitText[1];2] $authorIcon[$serverIcon[$splitText[1]];2]
+$author[$splitText[1];2] $authorIcon[$serverIcon[$guildID[$splitText[1]]];2]
 $description[> Dono: `@$username[$serverOwner[$guildID[$splitText[1]]]]`
 > ID do Servidor: `$guildID[$splitText[1]]`;2]
 $color[#03807f;2]
