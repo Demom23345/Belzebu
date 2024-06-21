@@ -17,6 +17,6 @@ $description[> Dono: `@$username[$serverOwner[$guildID[$splitText[1]]]]`
 $color[#03807f;2]
 
 $addButton[no;...;;secondary;yes;<:voltar_2:1248243543441670234>]
-$addButton[no;....;$getTextSplitLength Servidores;secondary;no]
+$addButton[no;....;$getTextSplitLength Servidores;secondary;yes]
 $var[z;$if[$getTextSplitLength<5]yes$elseif[$getTextSplitLength>=5]no$endif]
 $addButton[no;+/1/servers/$authorID;;secondary;$var[z];<:preoximo_2:1248243526525911151>]
