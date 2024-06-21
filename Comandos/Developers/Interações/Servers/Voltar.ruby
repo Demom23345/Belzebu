@@ -19,7 +19,7 @@ $description[> Dono: `@$username[$serverOwner[$guildID[$splitText[$sum[$var[nm];
 $color[#03807f;2]
 
 $var[z;$if[$getTextSplitLength>$sum[$var[nm];1]]no$elseif[$getTextSplitLength<=$sum[$var[nm];1]]yes$endif]
-$var[x;$if[$getTextSplitLength<$sum[$var[nm];1]]yes$elseif[$getTextSplitLength>=$sum[$var[nm];1]]no$endif]
+$var[x;$if[$var[nm]<=1]yes$elseif[$var[nm]>1]no$endif]
 
 $addButton[no;-/$sub[$var[nm];1]/servers/$authorID;;secondary;$var[x];<:voltar_2:1248243543441670234>]
 $addButton[no;....;$getTextSplitLength Servidores;secondary;yes]
