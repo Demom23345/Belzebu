@@ -16,5 +16,5 @@ $addField[Informações no Servidor;
 
 $if[$userBanner[$var[user]]!=]
 $color[#03807f;2]
-$image[$userBanner[$var[user]];2]
+$image[$userBanner[$var[user]]?size=2048;2]
 $endif
