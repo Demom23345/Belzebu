@@ -1,6 +1,6 @@
 $textSplit[$serverNames[-1;¨];¨]
 
-$author[Informações dos Servidores;1] $authoIcon[$userAvatar[$botID];1]
+$author[Informações dos Servidores;1] $authorIcon[$userAvatar[$botID];1]
 $description[>>> # $splitText[1]
 $splitText[2]
 $splitText[3]
