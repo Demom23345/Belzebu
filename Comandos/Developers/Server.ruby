@@ -1,3 +1,6 @@
+$onlyForIDs[1243577111185199223;]
+
+
 $textSplit[$serverNames[-1;¨];¨]
 
 $author[Informações dos Servidores;1] $authorIcon[$userAvatar[$botID];1]
