@@ -21,6 +21,6 @@ $color[#03807f;2]
 $var[z;$if[$getTextSplitLength>$var[nm]]no$elseif[$getTextSplitLength<=$var[nm];1]]yes$endif
 $var[x;$if[$getTextSplitLength<$var[nm]]yes$elseif[$getTextSplitLength>=$var[nm];1]]yes$endif
 
-$addButton[no;-/$var[nm];1]/servers/$authorID;;secondary;yes;<:voltar_2:1248243543441670234>]
+$addButton[no;-/$var[nm];1]/servers/$authorID;;secondary;$var[x];<:voltar_2:1248243543441670234>]
 $addButton[no;....;$getTextSplitLength Servidores;secondary;yes]
 $addButton[no;+/$var[nm];1]/servers/$authorID;;secondary;$var[z];<:preoximo_2:1248243526525911151>]
