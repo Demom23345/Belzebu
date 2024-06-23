@@ -22,5 +22,7 @@ $var[z;$if[$getTextSplitLength>$sum[$var[nm];1]]no$elseif[$getTextSplitLength<=$
 $var[x;$if[$getTextSplitLength<$sum[$var[nm];1]]yes$elseif[$getTextSplitLength>=$sum[$var[nm];1]]no$endif]
 
 $addButton[no;-/$sub[$var[nm];1]/servers/$authorID;;secondary;$var[x];<:voltar_2:1248243543441670234>]
+$addButton[no;botleave/$splitText[$sum[$var[nm];1]];danger;no;✖️]
 $addButton[no;....;$getTextSplitLength Servidores;secondary;yes]
+$addButton[no;link/$splitText[$sum[$var[nm];1]]/servers/$authorID;;primary;no;🔗]
 $addButton[no;+/$sum[$var[nm];1]/servers/$authorID;;secondary;$var[z];<:preoximo_2:1248243526525911151>]
