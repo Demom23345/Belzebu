@@ -25,4 +25,4 @@ $addButton[no;-/$sub[$var[nm];1]/servers/$authorID;;secondary;$var[x];<:voltar_2
 $addButton[no;botleave/servers/$splitText[$sum[$var[nm];1]]/$authorID;;danger;no;✖️]
 $addButton[no;....;$getTextSplitLength Servidores;secondary;yes]
 $addButton[no;link/servers/$splitText[$sum[$var[nm];1]]/$authorID;;primary;no;🔗]
-$addButton[no;+/$sum[$var[nm];1]/servers/$authorID;;secondary;$var[z];<:preoximo_2:1248243526525911151
+$addButton[no;+/$sum[$var[nm];1]/servers/$authorID;;secondary;$var[z];<:preoximo_2:1248243526525911151>]
